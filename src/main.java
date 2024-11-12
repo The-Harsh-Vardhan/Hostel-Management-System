@@ -12,7 +12,7 @@ public class Main {
             residentDAO.addResident("John Doe", 21, "Male", "1234567890", 1);
 
             // Assign a room to the resident
-            roomDAO.assignRoom(1, 1); // resident_id = 1, room_id = 1
+            roomDAO.assignRoom(1, 1); // resident_id = 1, room_id = 1 
 
             // Add a fee record
             feeDAO.addFee(1, 1000.00, "2024-11-30"); // resident_id = 1
